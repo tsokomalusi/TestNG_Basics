@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-02T18:15:40 SAST" name="Default suite" finished-at="2022-12-02T18:15:41 SAST" duration-ms="162">
+  <suite started-at="2022-12-02T19:04:48 SAST" name="Default suite" finished-at="2022-12-02T19:04:48 SAST" duration-ms="153">
     <groups>
     </groups>
-    <test started-at="2022-12-02T18:15:40 SAST" name="Default test" finished-at="2022-12-02T18:15:41 SAST" duration-ms="162">
+    <test started-at="2022-12-02T19:04:48 SAST" name="Default test" finished-at="2022-12-02T19:04:48 SAST" duration-ms="153">
       <class name="ui.LoginTest">
-        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:ui.LoginTest@60d8c9b7]" started-at="2022-12-02T18:15:40 SAST" name="loginToApplication" finished-at="2022-12-02T18:15:41 SAST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:ui.LoginTest@7c0c77c7]" started-at="2022-12-02T19:04:48 SAST" name="loginToApplication" finished-at="2022-12-02T19:04:48 SAST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApplication -->
-        <test-method signature="loginTest()[pri:1, instance:ui.LoginTest@60d8c9b7]" started-at="2022-12-02T18:15:41 SAST" name="loginTest" description="This is a login test" finished-at="2022-12-02T18:15:41 SAST" duration-ms="15" status="PASS">
+        <test-method signature="test1()[pri:1, instance:ui.LoginTest@7c0c77c7]" started-at="2022-12-02T19:04:48 SAST" name="test1" description="This is a login test" finished-at="2022-12-02T19:04:48 SAST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method signature="logoutTest()[pri:2, instance:ui.LoginTest@60d8c9b7]" started-at="2022-12-02T18:15:41 SAST" name="logoutTest" description="This is a logout test" finished-at="2022-12-02T18:15:41 SAST" duration-ms="9" status="PASS">
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:2, instance:ui.LoginTest@7c0c77c7]" started-at="2022-12-02T19:04:48 SAST" name="test2" description="This is a logout test" finished-at="2022-12-02T19:04:48 SAST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logoutTest -->
-        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:ui.LoginTest@60d8c9b7]" started-at="2022-12-02T18:15:41 SAST" name="logoutFromApplication" finished-at="2022-12-02T18:15:41 SAST" duration-ms="1" status="PASS">
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:ui.LoginTest@7c0c77c7]" started-at="2022-12-02T19:04:48 SAST" name="logoutFromApplication" finished-at="2022-12-02T19:04:48 SAST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutFromApplication -->
