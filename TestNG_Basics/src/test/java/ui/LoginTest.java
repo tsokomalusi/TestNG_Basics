@@ -1,27 +1,50 @@
 package ui;
 
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class LoginTest {
 	
-	//exploring BeforeTest and AfterTest annotation with dummy test cases
+	//BeforeTest vs BeforeMethod and AfterTest vs AfterMethod annotations
 
 	
-	//This executes before any of the test cases is executed
+
+	//#1 This will execute first before any method
+	
 	@BeforeTest
 	public void loginToApplication()  {
 
         System.out.println("Login to application");
 	}
 
-	//This will execute after all the test cases have been executed
+	//This will execute after all the methods have executed
+	
 	@AfterTest
 	public void logoutFromApplication()  {
 
         System.out.println("Logout from application");
 	}
+	
+	//#2 This always execute first before each test case
+	
+	@BeforeMethod
+	public void connectToDB()  {
+		
+		System.out.println("connecting to DB....");
+	}
+	
+	//#3 This always executes after each test case has run
+	
+	@AfterMethod
+	public void disconnectFromDB()   {
+		
+		System.out.println("disconnecting from DB....");
+	}
+	
+	//test cases execute according to the provided attribute (priority) of @Test
 
 	@Test(priority=1,description="This is a login test")
 	public void test1()  {
