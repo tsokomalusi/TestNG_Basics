@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-02T16:35:14 SAST" name="Default suite" finished-at="2022-12-02T16:35:14 SAST" duration-ms="158">
+  <suite started-at="2022-12-02T17:06:57 SAST" name="Default suite" finished-at="2022-12-02T17:06:57 SAST" duration-ms="159">
     <groups>
     </groups>
-    <test started-at="2022-12-02T16:35:14 SAST" name="Default test" finished-at="2022-12-02T16:35:14 SAST" duration-ms="158">
+    <test started-at="2022-12-02T17:06:57 SAST" name="Default test" finished-at="2022-12-02T17:06:57 SAST" duration-ms="159">
       <class name="ui.LoginTest">
-        <test-method signature="loginTest()[pri:1, instance:ui.LoginTest@309e345f]" started-at="2022-12-02T16:35:14 SAST" name="loginTest" finished-at="2022-12-02T16:35:14 SAST" duration-ms="19" status="PASS">
+        <test-method signature="loginTest()[pri:1, instance:ui.LoginTest@61dd025]" started-at="2022-12-02T17:06:57 SAST" name="loginTest" description="This is a login test" finished-at="2022-12-02T17:06:57 SAST" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="logoutTest()[pri:2, instance:ui.LoginTest@309e345f]" started-at="2022-12-02T16:35:14 SAST" name="logoutTest" finished-at="2022-12-02T16:35:14 SAST" duration-ms="2" status="PASS">
+        <test-method signature="logoutTest()[pri:2, instance:ui.LoginTest@61dd025]" started-at="2022-12-02T17:06:57 SAST" name="logoutTest" description="This is a logout test" finished-at="2022-12-02T17:06:57 SAST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutTest -->
