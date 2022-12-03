@@ -3,6 +3,8 @@ package ui;
 
 import org.testng.annotations.Test;
 
+
+@Test(groups="user_registration")
 public class GroupsDemoTest {
 	
 	//Grouping test cases at method level
