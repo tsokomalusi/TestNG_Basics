@@ -11,8 +11,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class VerifyTitleAndTextTest {
 	
 	//Introducing multiple HardAssert(assertions) into the test case(s)
-	//HardAssert stops script execution at that failed assert, other remaining asserts
-	//will not be considered
+	//HardAssert stops script execution at that failed assertion pont, other remaining asserts
+	//and statments ahead won't be considered
 	
 	@Test
 	public void titleTest() throws InterruptedException {
@@ -40,8 +40,7 @@ public class VerifyTitleAndTextTest {
 		String actualText = driver.findElement(By.xpath("//*[@id=\"gh-btn\"]")).getAttribute("value");
 		Assert.assertEquals(actualText, expectedText, textMessage);
 		
-		driver.close();
-		
+		driver.close();	
 	}
 
 }
