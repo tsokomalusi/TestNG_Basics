@@ -10,8 +10,6 @@ public class LoginTest {
 	
 	//BeforeTest vs BeforeMethod and AfterTest vs AfterMethod annotations
 
-	
-
 	//#1 This will execute first before any method
 	
 	@BeforeTest
