@@ -44,7 +44,7 @@ public class LoginTest {
 	
 	//test cases execute according to the provided attribute (priority) of @Test
 
-	@Test(priority=1,description="This is a login test")
+	@Test(priority=1,description="This is a login test", groups="regression")
 	public void test1()  {
 
 		System.out.println("Test1 Running");	
