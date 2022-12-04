@@ -1,6 +1,6 @@
 package ui;
 
-
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -8,13 +8,18 @@ import org.testng.annotations.Test;
 @Test(groups="user_registration")
 public class GroupsDemoTest {
 
-	/*method annotated with BeforeClass gets executed first before any method
-	in the GroupDemoTest class */
+	//Exploring BeforeClass and AfterClass annotations
 
 	@BeforeClass
 	public void beforeClassTest()  {
 
-		System.out.println("Run this before class");
+		System.out.println("executes first before class test cases");
+	}
+	
+	@AfterClass
+	public void afterClassTest()  {
+		
+		System.out.println("Run this after class");
 	}
 
 	//Grouping test cases at method level
@@ -42,7 +47,7 @@ public class GroupsDemoTest {
 	@Test(priority=3, groups= "bvt")
 	public void test4()  {
 
-		System.out.println("Test4 Running");
+		System.out.println("executes after class test cases have run ");
 	}
 
 }
