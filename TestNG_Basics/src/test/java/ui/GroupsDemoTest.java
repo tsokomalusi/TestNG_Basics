@@ -15,11 +15,11 @@ public class GroupsDemoTest {
 
 		System.out.println("executes first before class test cases");
 	}
-	
+
 	@AfterClass
 	public void afterClassTest()  {
-		
-		System.out.println("Run this after class");
+
+		System.out.println("executes after class test cases have run");
 	}
 
 	//Grouping test cases at method level
@@ -47,7 +47,7 @@ public class GroupsDemoTest {
 	@Test(priority=3, groups= "bvt")
 	public void test4()  {
 
-		System.out.println("executes after class test cases have run ");
+		System.out.println("Test4 Running");
 	}
 
 }
