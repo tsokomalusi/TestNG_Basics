@@ -4,11 +4,11 @@ import org.testng.SkipException;
 import org.testng.annotations.Test;
 
 public class SkipDemoTest {
-     
+
 	/**Using dummy test cases to show how test cases are skipped in testNG
 	//We have different approaches but each depends on the given scenario
-    **/
-	
+	 **/
+
 	//Boolean dataAvailable = true;
 	Boolean dataAvailable = false;
 

@@ -2,12 +2,12 @@
 <testng-results ignored="1" total="3" passed="0" failed="0" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-04T10:16:53 SAST" name="Default suite" finished-at="2022-12-04T10:16:53 SAST" duration-ms="109">
+  <suite started-at="2022-12-04T10:22:08 SAST" name="Default suite" finished-at="2022-12-04T10:22:08 SAST" duration-ms="100">
     <groups>
     </groups>
-    <test started-at="2022-12-04T10:16:53 SAST" name="Default test" finished-at="2022-12-04T10:16:53 SAST" duration-ms="109">
+    <test started-at="2022-12-04T10:22:08 SAST" name="Default test" finished-at="2022-12-04T10:22:08 SAST" duration-ms="100">
       <class name="ui.SkipDemoTest">
-        <test-method signature="skipTest2()[pri:0, instance:ui.SkipDemoTest@28eaa59a]" started-at="2022-12-04T10:16:53 SAST" name="skipTest2" finished-at="2022-12-04T10:16:53 SAST" duration-ms="19" status="SKIP">
+        <test-method signature="skipTest2()[pri:0, instance:ui.SkipDemoTest@28eaa59a]" started-at="2022-12-04T10:22:08 SAST" name="skipTest2" finished-at="2022-12-04T10:22:08 SAST" duration-ms="12" status="SKIP">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping this test]]>
@@ -49,7 +49,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- skipTest2 -->
-        <test-method signature="skipTest3()[pri:0, instance:ui.SkipDemoTest@28eaa59a]" started-at="2022-12-04T10:16:53 SAST" name="skipTest3" finished-at="2022-12-04T10:16:53 SAST" duration-ms="10" status="SKIP">
+        <test-method signature="skipTest3()[pri:0, instance:ui.SkipDemoTest@28eaa59a]" started-at="2022-12-04T10:22:08 SAST" name="skipTest3" finished-at="2022-12-04T10:22:08 SAST" duration-ms="5" status="SKIP">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Do not execute further test]]>
