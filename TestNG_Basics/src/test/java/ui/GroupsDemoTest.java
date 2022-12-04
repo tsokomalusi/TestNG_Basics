@@ -1,14 +1,15 @@
 package ui;
 
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterGroups;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeGroups;
 import org.testng.annotations.Test;
 
 
 @Test(groups="user_registration")
 public class GroupsDemoTest {
 
-	//Exploring BeforeClass and AfterClass annotations
 
 	@BeforeClass
 	public void beforeClassTest()  {
@@ -21,7 +22,21 @@ public class GroupsDemoTest {
 
 		System.out.println("executes after class test cases have run");
 	}
+	
+	
+	@BeforeGroups(value = "regression")
+	public void beforeGroupTest() {
+		
+	   System.out.println("This method runs before regression group");
+	}
+	
+	@AfterGroups(value = "regression")
+	public void afterGroupTest() {
+		
+	   System.out.println("This method runs after regression group");
+	}
 
+	
 	//Grouping test cases at method level
 
 	@Test(priority=1, groups="regression")
