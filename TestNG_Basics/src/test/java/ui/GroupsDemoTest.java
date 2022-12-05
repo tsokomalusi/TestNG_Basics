@@ -6,9 +6,11 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeGroups;
 import org.testng.annotations.Test;
 
+import common.CommonDataSetUp;
+
 
 @Test(groups="user_registration")
-public class GroupsDemoTest {
+public class GroupsDemoTest extends CommonDataSetUp {
 
 
 	@BeforeClass
